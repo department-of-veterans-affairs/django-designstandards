@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <title>{% block "subject" %}{% endblock %}</title>
+
+      <link rel="stylesheet" href="/static/css/google-fonts.css">
+      <link rel="stylesheet" href="/static/css/main.css">
+      <link rel="stylesheet" href="/static/css/cnc.css">
+  </head>
+  <body>
+    <div id="main" class="main-content" role="main">
+      <a class="skipnav" href="#main-content">Skip main navigation</a>
+      <header role="banner">
+        <div class="usa-disclaimer">
+          <div class="usa-grid">
+            <span class="usa-disclaimer-official">
+              <img class="usa-flag_icon" alt="" src="/static/img/us_flag_small.png">
+{% block "disclaimer-left" %}{% endblock %}
+            </span>
+            <span class="usa-disclaimer-stage">{% block "disclaimer-right" %}{% endblock %}</span>
+          </div>
+        </div>
+      </header>
+    </div>
+{% block "content" %}{% endblock %}
+  </body>
+</html>
