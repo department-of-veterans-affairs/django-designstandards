@@ -1,4 +1,4 @@
-django-usa
-==========
+django-designstandards
+======================
 
 Add some freedom.
