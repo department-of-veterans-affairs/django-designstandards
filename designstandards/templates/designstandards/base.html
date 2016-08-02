@@ -6,19 +6,17 @@
 
       <title>{% block "title" %}{% block "subject" %}{% endblock %}{% endblock %}</title>
 
-      <link rel="stylesheet" href="/static/css/google-fonts.css">
-      <link rel="stylesheet" href="/static/css/main.css">
+      <link rel="stylesheet" href="/static/css/uswds.min.css">
 
       {% block "header" %}{% endblock %}
   </head>
   <body>
   {% block "content" %}{% endblock %}
-  <script src="/static/js/vendor/jquery-1.11.3.min.js"></script>
   <!--[if lt IE 9]>
     <script src="/static/js/vendor/selectivizr-min.js"></script>
     <script src="/static/js/vendor/respond.js"></script>
     <script src="/static/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="/static/js/components.js"></script>
+  <script src="/static/js/uswds.min.js"></script>
   </body>
 </html>
