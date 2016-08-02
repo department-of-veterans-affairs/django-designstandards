@@ -16,6 +16,6 @@ Add `'designstandards'` to `INSTALLED_APPS` in settings.
 
 Make your templates extend from the base template in this app:
 
-    {% extend "designstandards/base.html" %}
+    {% extends "designstandards/base.html" %}
 
 OR include the same JS and CSS files as in (designstandards/templates/designstandards/base.html)[designstandards/templates/designstandards/base.html].
